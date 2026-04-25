@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Allow specific files
+!*.cpp
+!*.txt
+!README.md
+!.gitignore
+
+# Ignore build artifacts (extra safety)
+x64/
+Debug/
+Release/
+.vs/
+*.vcxproj*
+*.sln
